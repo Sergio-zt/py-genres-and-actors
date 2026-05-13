@@ -59,7 +59,3 @@ def main() -> QuerySet:
     ).order_by("first_name")
 
     return actors_filtered
-
-
-if __name__ == "__main__":
-    main()
